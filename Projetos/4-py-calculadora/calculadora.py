@@ -103,7 +103,7 @@ class Calculadora:
         # Label "Escolher tema:"
         self.label_tema = ttk.Label(self.frame_tema, text="Escolher tema:", font=('Roboto', 12))
         self.label_tema.pack(side='top', pady=(0, 5))
-        self.label_tema = ttk.Label(self.frame_tema, text="Laura Cernev", font=('Roboto', 12))
+        self.label_tema = ttk.Label(self.frame_tema, text="Fernando Brito", font=('Roboto', 12))
         self.label_tema.pack(side='top', pady=(0, 5))
 
         # Seletor de temas (ComboBox)
@@ -113,7 +113,6 @@ class Calculadora:
         self.seletor_tema.pack(side='top', fill='x')
         self.seletor_tema.bind("<<ComboboxSelected>>", self.mudar_tema)
 
-        # Laura Cernev Cesar
         # Inicia a janela principal
         self.janela.mainloop() # Inicia o loop principal da interface gráfica
 
